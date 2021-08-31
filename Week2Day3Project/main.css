@@ -1,0 +1,55 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    color: #ffffff;
+}
+.header {
+    padding: 12px 0 12px 0;
+    width: auto;
+    height: 24px;
+    background-color: #222222;
+    border: 1px solid #44F8F7;
+}
+.header ul{
+    list-style-type: none;
+    text-align: center;
+}
+.header ul li{
+    padding-right: 20px;
+    font-family: Verdana, sans-serif;
+    display: inline;
+    color: #44F8F7;
+    font-size: 20px;
+}
+.header li:last-child {
+    padding-right: 0;
+}
+body {
+    background: #222222 url(images/WaveBackground.png) top center repeat;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+}
+.article {
+    margin: 0 100px 0 100px;
+}
+h1 {
+    color: #000000;
+    -webkit-text-stroke: 2px #44F8F7;
+    margin: 75px 0 40px 0;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+
+}
+/* #44F8F7 */
